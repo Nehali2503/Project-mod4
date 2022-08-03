@@ -1,0 +1,85 @@
+body{
+    background-image:url("D:\Project-module\my-citizen-app\src\Images\original.png");
+}
+
+.navbar{
+background-color:#f4258d;
+  height:80px;
+  display:flex;
+  justify-content:start;
+  align-items:center;
+}
+
+.menu-bars{
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+
+}
+
+.nav-menu{
+    background:url("D:\Project-module\my-citizen-app\src\Images\dark1.png");
+    width:250px;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    position:fixed;
+    top:0;
+    transition:850ms;
+    left:-100%;
+}
+
+.nav-menu.active{
+    left:0;
+    transition:350ms;
+}
+
+.nav-text{
+    display:flex;
+    justify-content: start;
+    align-items:center;
+    padding:8px 0px 8px 16px;
+    list-style: none;
+    height:60px;
+
+}
+
+.nav-text a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    width:95%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    border-radius:4px;
+    padding:0px 16px;
+
+}
+
+.nav-text a:hover{
+    background-color:#ea107d;
+}
+.nav-menu-items{
+    width:100%;
+
+}
+
+.navbar-toggle{
+    background-color:grey;
+    width:100%;
+    height:80px;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+}
+
+span{
+    margin-left:16px;
+}
+
+.navbar h1{
+    margin-left: 35%;
+    display:flex;
+    color:white;
+}
